@@ -181,7 +181,7 @@ function createPostHtml(postData, largeFont = false) {
     if(isRetweet) {
         retweetText = `<span>
                         <i class='fas fa-retweet'></i>
-                        Shared by <a href='/profile/${retweetBy}'>@${retweetBy}  </a>
+                        Shared by <a href='/'>@anonymous</a>
                        </span>`                 
     }
 
