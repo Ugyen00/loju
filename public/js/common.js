@@ -197,7 +197,7 @@ function createPostHtml(postData, largeFont = false) {
         
         var replyToUsername = postData.replyTo.postedBy.username;
         replyFlag = `<div class='replyFlag'>
-                        Replaying To <a href='/profile/${replyToUsername}'>anonymous</a>
+                        Replaying To <a href='/'>anonymous</a>
                     </div>`
     }
 
