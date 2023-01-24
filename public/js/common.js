@@ -219,7 +219,7 @@ function createPostHtml(postData, largeFont = false) {
                     </div>
                     <div class='postContentContainer'>
                         <div class='header'>
-                            <a href='/'class='displayName'>anonymous</a>
+                            <a href='/'class='displayName' value = "anonymous"></a>
                             <span class='date'>${timestamps}</span>
                             ${buttons} 
                         </div>
